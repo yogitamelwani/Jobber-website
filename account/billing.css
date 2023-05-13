@@ -1,0 +1,78 @@
+.details{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+label{
+    display:block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    letter-spacing: 0.4px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.form > div{
+    display:block;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width:80%;
+    margin-left: 1rem;
+}
+.form input[type=text]{
+    height: 2rem;
+    margin-left: 1rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    transition: .15s ease-in-out;
+}
+
+
+
+.form input[type=submit], input[type=reset]{  
+    
+    text-align: center;
+    border:none;
+    padding: .375rem 2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin: 3rem 1rem 1rem 1rem;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color:rgb(10, 153, 10); 
+    background-color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 1px solid rgb(10, 153, 10);
+
+}  
+
+.form input[type=text]:focus{
+    border: none;
+}
+
+
+
+
+.form input[type=submit]:hover, input[type=reset]:hover{
+
+    background-color: rgb(10, 153, 10);
+    color:white;
+}  
+
+.form > span{
+    display: block;
+    padding:0.3rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    letter-spacing: 0.4px;
+
+}

@@ -1,0 +1,98 @@
+
+
+.heading{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 6rem 0 2rem 12rem;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    background-color: white;
+    width: 70%;
+    height:50%;
+    margin-left: 12rem;
+    margin-bottom: 10rem;
+    border: 1px solid #dce0e6;
+    border-radius: 5px;
+    padding-top: 1px;
+
+}
+
+.lists{
+    width:30%;
+    border-right: 1px solid #dce0e6;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 5px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+li{
+    display:block;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 39px;
+    margin-bottom: 0;
+    padding-left: 0px;
+}
+
+li > span{
+    display:block;
+    
+}
+li > .active{
+    background-color: rgb(10, 153, 10);
+}
+li > span:hover{
+    display:block;
+    background-color: rgb(172, 169, 169);
+    
+}
+
+li > span > a{
+    display:block;
+    margin-left:2px;
+    padding:0.8rem 2rem;
+    line-height: 39px;
+    background-color: white;
+    text-decoration:none;
+    color:grey;
+}
+
+li > .active > a{
+    background-color: whitesmoke;
+    color:rgb(10, 153, 10);
+    
+}
+li > span > a:hover{
+    background-color: whitesmoke;
+    
+}
+
+
+
+.content{
+    width:70%
+}
+
+.head{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
+.content_heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 3rem 1rem 0.5rem 2rem;
+}

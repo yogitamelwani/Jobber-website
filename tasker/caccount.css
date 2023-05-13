@@ -1,0 +1,174 @@
+
+.heading{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 39px;
+    margin: 3rem 0 2rem;
+    padding-left: 20px;
+}
+.description{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 40px auto;
+    background-color: white;
+    padding: 5px 10px 15px 20px;
+}
+
+
+
+.sub-heading{
+    width: 90%;
+    line-height: 30px;
+    padding: 10px 20px;
+    margin: 1px 0 80px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.form input[type=text]{
+    
+    width:300px;
+    height:60px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #fff;
+    margin: 4px 22px 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.email input[type=text]{
+    width:80%;
+}
+
+.name {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin: 4px 22px 0px;
+    
+  }
+  
+  .fname input[type=text], .lname input[type=text] {
+    
+    
+    width: 300px;
+    display:block;
+    margin:0;
+
+  }
+  .number{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin: 0px 22px ;
+  }
+select{ 
+    width:200px;
+    height:64px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #fff;
+    margin:0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+option{ 
+    font-size:1.2rem; 
+    font-weight:300;
+    padding:14px 7px;
+    background-color: whitesmoke;
+
+}
+option:hover{
+    background-color: white;
+}
+
+.phone input[type=text] {
+    
+    
+    width: 406px;
+    display:block;
+    margin:0;
+
+  }
+
+.form input[type=password]{
+    
+    width:80%;
+    height:60px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #fff;
+    margin: 0 22px;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.form > .pin input[type=text] {
+    
+    
+    width: 80%;
+    display:block;
+    margin:0 22px;
+
+  }
+
+.chk{
+    width: 90%;
+    line-height: 30px;
+    padding: 0;
+    margin: 30px 1.2rem 80px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.last-heading{
+    width: 90%;
+    line-height: 30px;
+    padding: 10px 20px;
+    margin: 1px 0 20px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+a{
+    color:rgb(10, 153, 10);
+    text-decoration: none;
+}
+
+a:hover{
+    color:black;
+}
+
+
+.form input[type=submit]{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    background-color: rgb(10, 153, 10);
+    color:white;
+    padding: 20px 270px;
+    border: 0cm;
+    border-radius: 5px; 
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin:20px 20px 10px;
+    text-decoration: none;
+    
+    
+}
+
+.form input[type=submit]:hover{
+    
+    background-color: darkgreen;
+    color:white;
+   
+    
+}

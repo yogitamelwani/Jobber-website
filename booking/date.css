@@ -1,0 +1,150 @@
+.hbox{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(68, 68, 68, 0.2), 0 6px 20px 0 rgba(65, 65, 65, 0.19);
+}
+
+.heading{
+ padding:5rem 12rem 2rem;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ justify-content: flex-start;
+}
+
+.heading > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.num{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(201, 197, 197);
+    padding: 1rem 1.7rem;
+    border-radius: 50%;
+    color:rgb(37, 37, 37);
+ 
+}
+
+.active{
+    background-color: rgb(10, 153, 10);
+    color:white;
+}
+
+
+.lheading{
+    padding:2rem 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+   }
+
+.let{
+    font-size: 2rem;
+    font-weight: 400;
+    margin:0 4.9rem;
+    color:rgb(120, 117, 117);
+}
+
+.sactive{
+    color:rgb(37, 37, 37);
+    font-weight: 500;
+}
+
+.headlet > center
+{
+    display: block;
+    padding:2rem ;
+    font-size: 2rem;
+    font-weight: 200;
+    color:rgb(89, 87, 87);
+}
+
+.bbox{
+    margin:4rem 5rem 2rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.bbox > div
+{
+    margin-top:3rem;
+    margin-left: 3rem;;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.bhead{
+    display: flex;
+    flex-direction: row;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    
+}
+.bhead > span{
+    padding-left:1rem;
+}
+.boxdes{
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: block;
+   margin:0  2rem;
+   color: rgb(126, 124, 124);
+   text-align: center;
+    
+}
+
+input[type=submit]{
+    display:block;
+    
+    background-color: rgb(10, 153, 10);
+    color:white;
+    padding: 2rem ;
+    border: 0cm;
+    border-radius: 5px; 
+    font-size: 2rem;
+    font-weight: 500;
+    margin:2rem 3rem 2rem 2rem;
+    text-decoration: none;
+    width:90%;
+    
+}
+
+.time > label{
+    display:block;
+    font-size:1.8rem;
+    font-weight: 300;
+    padding:5px;
+    margin:30px 10px 10px 30px;
+}
+
+select{ 
+    width:300px;
+    height:60px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #fff;
+    margin: 4px 35px 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+option{ 
+    font-size:1.2rem; 
+    font-weight:300;
+    padding:14px 7px;
+    background-color: whitesmoke;
+
+}
+option:hover{
+    background-color: white;
+}

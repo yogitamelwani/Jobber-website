@@ -1,0 +1,194 @@
+.head{
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 8rem;
+    margin:4rem auto;
+    text-align: center;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+
+}
+
+.col{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width:25%;
+}
+
+.headin{
+    font-size: 3rem;
+    margin:0 4rem 1rem;
+}
+
+.intro, .about, .skills{
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content: left;
+    box-shadow:0.2px 0.2px 10px rgb(175, 173, 173);
+    border-radius: 2%;
+    margin:0 1rem 2rem 4rem;
+   background-color: white;
+}
+
+.intro{
+    
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
+    padding:1rem;
+}
+
+.intro > .body{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 1rem;
+}
+.bold{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+span{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.about{
+    padding:1rem;
+}
+
+.about span, .intro span{
+    line-height: 2rem;
+    
+}
+
+.skills span{
+    display:block;
+    padding:2rem 1rem;
+
+}
+
+.skills span:hover{
+    background-color: whitesmoke;
+}
+
+.col2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    width: 50%;
+    margin:0 1rem 2rem 4rem;
+    box-shadow:0.2px 0.2px 10px rgb(175, 173, 173);
+    border-radius: 2%;
+    margin:0 1rem 2rem 4rem;
+   background-color: white;
+}
+.chead{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:fit-content;
+   margin-top: 3rem;
+}
+
+.cheading{
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 8rem;
+    margin:0 4rem ;
+}
+.btn{  
+    display: block;
+    text-align: center;
+    border:none;
+    padding: .375rem 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin: 0 2rem 1rem 1rem;
+    transition-duration: 0.4s;
+}  
+
+.button1{
+    text-decoration: none;
+    color:rgb(10, 153, 10); 
+    background-color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 1px solid rgb(10, 153, 10);
+}
+
+.button1:hover
+{  
+    background-color: rgb(10, 153, 10);
+    color:white;
+}  
+.days{
+    margin: 2rem 3rem;
+}
+.days > .bold{
+    margin-left: 1rem;
+}
+.drow{
+    display:flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+}
+.drow span{
+    display: block;
+    padding: 1rem;
+}
+
+.drow > .active{
+    color: rgb(19, 177, 19);
+    font-weight: 500;
+}
+
+.dcol{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.dcol > .drow span{
+    display: block;
+    padding: 1rem;
+    border: 1px solid rgb(19, 177, 19) ;
+    border-radius: 5%;
+    margin: 1rem;
+}
+
+.dcol > .drow > .active{
+    background-color: rgb(19, 177, 19);
+    font-weight: 500;
+    color: white;
+}
+
+.button2{
+    text-decoration: none;
+    color:rgb(10, 153, 10); 
+    background-color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 1px solid rgb(10, 153, 10);
+    margin:2rem 3rem 3rem 4rem;
+}
+
+.button2:hover
+{  
+    background-color: rgb(10, 153, 10);
+    color:white;
+}  

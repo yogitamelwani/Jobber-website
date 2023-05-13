@@ -1,0 +1,147 @@
+.head{
+    background-image: url("../images/5.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    width:100%;
+    height:850px;
+    margin-bottom: 200px;
+    
+}
+
+
+
+.head > span{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: white;
+    width:35%;
+    height:25%;
+    margin: 250px 25%;
+    padding: 80px; 
+    border-radius: 5px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 70px;
+    margin-bottom: 1.5rem;
+}
+
+.invitations > div{
+
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        border: 1px solid rgb(224, 221, 221);
+        margin: 2rem 4rem;
+        
+
+}
+
+.invitations > .heading{
+  font-size: 2rem;
+  font-weight: 400;
+  color:darkgrey;
+  margin-left:4rem;
+}
+
+.ibody {
+    
+    border-collapse: collapse;
+    width: 100%;
+    margin:0;
+    background-color: whitesmoke;
+  }
+  
+  .ibody td {
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 1.6rem;
+      font-weight: 400;
+  }
+  .ibody th{
+      font-size: 2rem;
+      font-weight: 600;
+      border: 1px solid #ddd;
+    padding: 25px;
+  }
+  
+  
+  
+  
+  .ibody th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(10, 153, 10);
+    color: white;
+  }
+
+  .btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 153, 10);
+    color:white;
+    padding: 10px 100px;
+    border: 0cm;
+    border-radius: 5px; 
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin:3px auto 3px;
+    text-decoration: none;
+  }
+
+  .btn:hover{
+    background-color: rgb(2, 99, 2);
+  }
+
+  .tasks{  
+      margin: 12rem 4rem 6rem;
+
+  }
+  .thead{
+    width: 100rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    margin: 2rem 0 1rem;
+
+  }
+
+  .tasks > .heading{
+      font-size: 2rem;
+      font-weight: 400;
+      color:darkgrey;
+  }
+
+  
+  .thead div{
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 50px;
+    color:grey;
+    padding-right: 2rem;
+
+  }
+
+  .thead > .services{
+    width:20rem;
+  }
+  .thead > .img{
+    width: 10rem;
+  }
+  .thead > place{
+    width:70rem;
+  }
+
+ 
+
+
