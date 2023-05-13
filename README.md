@@ -36,13 +36,13 @@ Step 2: type “localhost/projects” <br>
 Step 3: Click on Jobber.<br>
 The website will now run on your browser
 
-<br>
+<br><br>
 Use these credentials on the login page to have a full view of the website:
-<br>
+<br><br>
 For Customer:<br>
 Email id: yogimel2001@gmail.com<br>
 Password: 123
-
+<br><br>
 For Tasker:<br>
 Email id: ym@gmail.com<br>
 Password: 123
